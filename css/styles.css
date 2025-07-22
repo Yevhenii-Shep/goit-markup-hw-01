@@ -30,10 +30,8 @@ button {
 
 
 .site-header {
-  display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 24px 0;
 }
 
 .logo {
@@ -50,10 +48,6 @@ button {
   color: #2e2f42;
 }
 
-.nav-list {
-  display: flex;
-  gap: 40px;
-}
 
 .nav-link {
   color: #2e2f42;
@@ -71,10 +65,6 @@ button {
   font-style: normal;
 }
 
-.contact-list {
-  display: flex;
-  gap: 40px;
-}
 
 .contact-link {
   color: #434455;
@@ -89,7 +79,6 @@ button {
 .hero-section {
   background-color: #2e2f42;
   text-align: center;
-  padding: 188px 0;
 }
 
 .hero-title {
@@ -98,6 +87,7 @@ button {
   line-height: 1.07;
   letter-spacing: 0.02em;
   margin-bottom: 48px;
+  text-align: center;
 }
 
 .hero-button {
@@ -108,9 +98,7 @@ button {
   line-height: 1.5;
   letter-spacing: 0.04em;
   border: none;
-  border-radius: 4px;
   cursor: pointer;
-  padding: 16px 32px;
   transition: background-color 250ms ease;
 }
 
@@ -133,10 +121,6 @@ button {
   margin-bottom: 72px;
 }
 
-.features-list {
-  display: flex;
-  gap: 24px;
-}
 
 .feature-title {
   font-weight: 500;
@@ -156,29 +140,17 @@ button {
 
 .team-section {
   background-color: #f4f4fd;
-  padding: 120px 0;
 }
 
-.team-list {
-  display: flex;
-  gap: 24px;
-}
 
 .team-member {
   background-color: #ffffff;
-  border-radius: 0 0 4px 4px;
   text-align: center;
-  padding-bottom: 32px;
 }
 
-.portfolio-section {
-  padding: 120px 0;
-}
 
 .portfolio-list {
-  display: flex;
   flex-wrap: wrap;
-  gap: 48px 24px;
 }
 
 .portfolio-item {
@@ -187,7 +159,6 @@ button {
 
 .site-footer {
   background-color: #2e2f42;
-  padding: 100px 0;
 }
 
 .footer-logo-accent {
