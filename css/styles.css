@@ -54,8 +54,8 @@ button {
   font-size: 16px;
 }
 
-.home:hover,
-.home:focus {
+.nav-link:hover,
+.nav-link:focus {
   color: #404bbf;
 }
 
@@ -63,7 +63,7 @@ button {
   font-style: normal;
 }
 
-.contact-mail {
+.contact-mail, .contact-phone {
   font-size: 16px;
   color: #434455;
   transition: color 250ms ease;
@@ -71,13 +71,11 @@ button {
   letter-spacing: 0.02em;
 }
 
-.contact-mail:hover,
-.contact-mail:focus {
+.contact-mail:hover ,.contact-phone:hover,
+.contact-mail:focus, .contact-phone:focus {
   color: #404bbf;
 }
-.contact-phone{
-  @extend .contact-mail
-}
+
 
 .hero-section {
   background-color: #2e2f42;
@@ -149,7 +147,7 @@ button {
 .portfolio-list {
   flex-wrap: wrap;
 }
-.portfolio-title  {
+.portfolio-title {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -165,7 +163,7 @@ button {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.portfolioo-text{
+.portfolioo-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
