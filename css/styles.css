@@ -51,10 +51,11 @@ button {
   transition: color 250ms ease;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  font-size: 16px;
 }
 
-.nav-link:hover,
-.nav-link:focus {
+.home:hover,
+.home:focus {
   color: #404bbf;
 }
 
@@ -62,16 +63,20 @@ button {
   font-style: normal;
 }
 
-.contact-link {
+.contact-mail {
+  font-size: 16px;
   color: #434455;
   transition: color 250ms ease;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
-.contact-link:hover,
-.contact-link:focus {
+.contact-mail:hover,
+.contact-mail:focus {
   color: #404bbf;
+}
+.contact-phone{
+  @extend .contact-mail
 }
 
 .hero-section {
@@ -85,11 +90,13 @@ button {
   letter-spacing: 0.02em;
   margin-bottom: 48px;
   text-align: center;
+  line-height: 1.07;
 }
 
 .hero-button {
   background-color: #4d5ae5;
   color: #ffffff;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 0.04em;
@@ -120,7 +127,7 @@ button {
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin-bottom: 8px;
-  line-height: 1.2;
+  line-height: 1.11;
 }
 
 .feature-text {
@@ -142,7 +149,7 @@ button {
 .portfolio-list {
   flex-wrap: wrap;
 }
-.portfolio-title {
+.portfolio-title  {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -150,7 +157,19 @@ button {
   text-transform: capitalize;
   color: #2e2f42;
 }
-.portfolio-text {
+
+.portfolioo-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.portfolioo-text{
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
 .site-footer {
   background-color: #2e2f42;
@@ -164,4 +183,5 @@ button {
   color: #f4f4fd;
   font-size: 16px;
   letter-spacing: 0.02em;
+  line-height: 1.5;
 }
